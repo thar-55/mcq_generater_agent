@@ -3,3 +3,4 @@ openai
 pydantic
 reportlab
 python-dotenv
+langchain_community
