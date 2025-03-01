@@ -5,7 +5,7 @@ from models.pydantic_models import QuizOutput, MCQ
 
 def generate_mcq_quiz(field: str, topics: list, difficulty: str, num_questions: int) -> QuizOutput:
     # Initialize LLM
-    llm = OpenAI(api_key="your_openai_api_key")
+    llm = OpenAI(api_key="sk-proj-aLk4mDveiPaL2h4PW40PT3BlbkFJomHOTOUvg2RdhwlCttOV")
 
     # Define prompt
     mcq_prompt = PromptTemplate(
