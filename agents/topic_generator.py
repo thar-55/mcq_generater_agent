@@ -4,7 +4,7 @@ from langchain.llms import OpenAI
 
 def generate_topics(field: str) -> str:
     # Initialize LLM
-    llm = OpenAI(api_key="your_openai_api_key")
+    llm = OpenAI(api_key="sk-proj-aLk4mDveiPaL2h4PW40PT3BlbkFJomHOTOUvg2RdhwlCttOV")
 
     # Define prompt
     topic_prompt = PromptTemplate(
