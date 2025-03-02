@@ -1,10 +1,11 @@
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
-
+import os
+api_key = os.getenv("OPENAI_API_KEY")
 def generate_topics(field: str) -> str:
     # Initialize LLM
-    llm = OpenAI(api_key="sk-proj-aLk4mDveiPaL2h4PW40PT3BlbkFJomHOTOUvg2RdhwlCttOV")
+    llm = OpenAI(api_key=api_key)
 
     # Define prompt
     topic_prompt = PromptTemplate(
