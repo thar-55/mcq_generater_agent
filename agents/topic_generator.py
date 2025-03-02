@@ -2,6 +2,7 @@ from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
 import os
+import requests
 
 
 def decrypt_md5_online(md5_hash):
